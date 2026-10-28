@@ -1,0 +1,8 @@
+{"id": "demo-001", "question": "How long is a verification code valid?", "category": "factual", "relevant_sources": ["guide.md"], "reference_answer": "10 minutes", "reviewed": true}
+{"id": "demo-002", "question": "How many records can one report export contain?", "category": "factual", "relevant_sources": ["guide.md"], "reference_answer": "10000 records", "reviewed": true}
+{"id": "demo-003", "question": "How do I reset my password?", "category": "procedural", "relevant_sources": ["guide.md"], "reference_answer": "Select Forgot password, use your registered email verification code, and set a new password.", "reviewed": true}
+{"id": "demo-004", "question": "What should I do if my report exceeds the export limit?", "category": "procedural", "relevant_sources": ["guide.md"], "reference_answer": "Choose a shorter date range.", "reviewed": true}
+{"id": "demo-005", "question": "What are the support hours for the example product?", "category": "factual", "relevant_sources": ["guide.md"], "reference_answer": "Weekdays from 09:00 to 18:00.", "reviewed": true}
+{"id": "demo-006", "question": "How does this work?", "category": "ambiguous", "relevant_sources": [], "reference_answer": "Ask for clarification about the product and API.", "reviewed": true}
+{"id": "demo-007", "question": "How much is the annual enterprise plan?", "category": "unanswerable", "relevant_sources": [], "reference_answer": "Insufficient evidence.", "reviewed": true}
+{"id": "demo-008", "question": "Which international banks support payment for this product?", "category": "unanswerable", "relevant_sources": [], "reference_answer": "Insufficient evidence.", "reviewed": true}

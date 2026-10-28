@@ -1,0 +1,21 @@
+{
+  "name": "support-rag-ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "test": "tsc src/stream.ts --target ES2022 --module ES2022 --outDir .test-build --skipLibCheck && node --test tests/stream.test.mjs"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.0"
+  }
+}

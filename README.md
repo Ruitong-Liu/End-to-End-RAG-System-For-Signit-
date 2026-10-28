@@ -110,8 +110,3 @@ See [verification notes](docs/verification.md) for actual local checks and their
 
 SSE events are `status`, `sources`, `token`, `replace`, `done`, and `error`. Clients append `token` text, overwrite the draft on `replace`, and treat a response as complete only after `done`.
 
-## Scope and limitations
-
-Citation checks validate reference numbering, not semantic support for every claim. Live output is provisional until final checks finish. The reranker threshold is configurable and requires calibration for a new corpus. Human support currently provides contact guidance rather than creating tickets. There is no authentication, public hosting, or durable conversation database; services bind to localhost. Ingestion supports Markdown/TXT rather than direct PDF/Word parsing.
-
-Provider usage is reported when available. Generation cost is calculated only when actual prices are configured; query rewriting cost is not aggregated. Local synthetic smoke results are not production benchmarks.
